@@ -1,0 +1,29 @@
+.hello:link {
+    color: rgb(170, 141, 77);
+}
+
+.hello:hover {
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+li:nth-child(even) a {
+    color: greenyellow;
+}
+
+li:nth-child(odd) a {
+    color: hotpink;
+}
+
+p:first-of-type {
+    color: red;
+}
