@@ -1,0 +1,21 @@
+h1,
+h2 {
+    color: rgb(54, 179, 54);
+}
+
+ul li a {
+    color: orange;
+}
+
+ol li a {
+    color: red;
+}
+
+#p1 {
+    color: orange;
+}
+
+.p2 {
+    color: red;
+    font-weight: bold;
+}
