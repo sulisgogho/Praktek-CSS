@@ -1,0 +1,20 @@
+a {
+    background-color: pink;
+}
+
+.main {
+    width: 600px;
+    background-color: greenyellow;
+}
+
+.main h2 {
+    background-color: pink;
+}
+
+img {
+    display: none;
+}
+
+.navigation li {
+    display: inline;
+}
