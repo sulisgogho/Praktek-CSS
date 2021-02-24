@@ -138,7 +138,7 @@ table {
 body {
     font-size: 16px/28px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(187, 187, 187);
+    background-image: url(img/greek-vase.png);
 }
 
 .container {
@@ -149,6 +149,7 @@ body {
 
 .header {
     padding: 20px;
+    padding-bottom: 10px;
 }
 
 .header .judul {
@@ -156,4 +157,63 @@ body {
     font-weight: bold;
 }
 
-.header li
+.header li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 400px;
+    background-image: url(img/image1.png);
+    background-size: cover;
+    background-position: 0 -70px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid rgb(46, 208, 230);
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14;
+}
+
+.footer {
+    background-color: rgb(48, 45, 45);
+    padding: 10px;
+
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
